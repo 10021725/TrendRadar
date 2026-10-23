@@ -217,7 +217,7 @@ jobs:
           command: pages deploy cloudflare_dist --project-name=${{ secrets.CLOUDFLARE_PROJECT_NAME }}
 
       # --------------------------------------------------------------------------------
-      # 🐙 GITHUB PAGES DEPLOY / 部署到 GitHub Pages
+      # GITHUB PAGES DEPLOY
       # --------------------------------------------------------------------------------
       - name: Prepare GitHub Pages artifact
         if: success()
